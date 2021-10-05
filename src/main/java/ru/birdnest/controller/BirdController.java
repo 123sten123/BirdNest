@@ -14,7 +14,6 @@ public class BirdController {
      */
     @PostMapping(value = "/name")
     public void addBird(Bird bird){
-        // TODO: 14.08.2021 Добавить БД
         System.out.println("ADD");
     }
 
